@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Aktiviteler arası geçiş kodu
         Intent intent = new Intent(MainActivity.this,MainActivity2.class);
-        //Dışardan girilen değeri al ve diğer aktiviteye yolla
+        //Dışardan girilen değeri al ve diğer aktiviteye yola
         intent.putExtra("userInput",userName);
 
         startActivity(intent);
